@@ -261,3 +261,12 @@
 2019-04-25 16:15:29.0978 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->userController
 2019-04-25 16:15:29.0978 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->UserNorthCastle
 2019-04-25 16:15:29.0978 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:28)} [DEBUG] User [name=Íõºê²ý, age=18]
+2019-04-25 21:23:12.0241 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-04-25 21:23:12.0245 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-04-25 21:23:12.0245 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-04-25 21:23:12.0246 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->org.springframework.context.event.internalEventListenerProcessor
+2019-04-25 21:23:12.0246 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->org.springframework.context.event.internalEventListenerFactory
+2019-04-25 21:23:12.0246 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->mainConfig01
+2019-04-25 21:23:12.0247 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->userController
+2019-04-25 21:23:12.0247 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:25)} [DEBUG] #-->UserNorthCastle
+2019-04-25 21:23:12.0247 [main] {ConfigurationTest.java:com.whc.test.ConfigurationTest.testConfiguration(ConfigurationTest.java:28)} [DEBUG] User [name=Íõºê²ý, age=18]
