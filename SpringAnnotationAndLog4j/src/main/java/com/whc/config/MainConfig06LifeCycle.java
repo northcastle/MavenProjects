@@ -19,4 +19,12 @@ public class MainConfig06LifeCycle {
 	public Car car(){
 		return new Car();
 	}
+	
+	/**
+	 * 把bean的后置处理器放入到配置类中
+	 */
+	@Bean()
+	public MyBeanPostProcessor myBeanPostProcessor(){
+		return new MyBeanPostProcessor();
+	}
 }
