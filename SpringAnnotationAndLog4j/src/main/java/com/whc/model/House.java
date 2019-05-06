@@ -1,10 +1,11 @@
 package com.whc.model;
 
+import org.springframework.beans.factory.Aware;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component("house")
-public class House {
+public class House implements Aware{
 	
 	@Value("北京二环一套房")
 	private String name;
