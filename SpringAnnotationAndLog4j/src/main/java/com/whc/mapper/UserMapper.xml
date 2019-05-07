@@ -5,6 +5,6 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <mapper namespace="com.whc.mapper.UserMapper">
 	<select id="queryOneObject" resultType="com.whc.model.User">
-		select * from Blog where id = #{id}
+		select name,age from usera where id = #{id}
 	</select>
 </mapper>

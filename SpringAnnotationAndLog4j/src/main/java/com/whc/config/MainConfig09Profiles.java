@@ -40,6 +40,10 @@ public class MainConfig09Profiles {
 		dataSource.setUsername(username);
 		dataSource.setPassword(password);
 		
+		dataSource.setPoolPingEnabled(true);
+		//这句话是来验证connection是否通了的
+		dataSource.setPoolPingQuery("select sysdate from dual");
+		
 		return dataSource;
 	}
 	

@@ -35,6 +35,8 @@ public class ProfilesTest {
 	
 	/**
 	 * 下面的这种方式很方便的用来切换运行环境
+	 * 
+	 * 但是，这里有一个mybatis+ spring 的整合的问题，具体怎么来写，还需要再进行学习一些，记住有这么个地方
 	 */
 	@Test
 	public void testProfiles02(){
@@ -65,7 +67,8 @@ public class ProfilesTest {
 		// 这个地方绑定的应该是借口类的位置，
 		// 目前来看，借口类需要和这个xml文件放在同一目录下面才可以使用，后期整合的时候一定要注意这个地方
 		
-		//7.下面的就是可以进行的常规操作了
+		//7.下面的就是可以进行的常规操作了 : 这个实验室可以成功的
+		//但是后期还需要进行Mybati+spring的整合，才能够使代码更加的完善
 		SqlSessionFactory sessionFactory =  new SqlSessionFactoryBuilder().build(configuration);
 		
 		SqlSession session =  sessionFactory.openSession();
